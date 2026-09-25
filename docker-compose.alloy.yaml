@@ -1,0 +1,13 @@
+services:
+  app:
+    image: node:22-bookworm
+    working_dir: /workspace
+    network_mode: host
+    volumes:
+      - .:/workspace
+    environment:
+      IS_ALLOY: ${IS_ALLOY:-false}
+      NODE_ENV: development
+      DISABLE_HMR: ${DISABLE_HMR:-false}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    command: bash -lc "npm install && npm run dev"

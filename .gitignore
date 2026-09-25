@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 service-account.json
 
+
+# Alloy local env
+.env.local
