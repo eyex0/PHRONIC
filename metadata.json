@@ -1,0 +1,8 @@
+{
+  "name": "PHRONIC - AI Business Intelligence & Decision System",
+  "description": "PHRONIC is an enterprise AI Business Intelligence & Decision System. It analyzes corporate data, constructs persistent semantic business knowledge graphs, isolates root causes, and delivers executive-ready presentations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
