@@ -254,6 +254,7 @@ const App: React.FC = () => {
 
   type WorkspaceTab =
     | 'workspace'
+    | 'brand_studio'
     | 'context'
     | 'investigation'
     | 'analyst'
